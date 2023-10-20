@@ -1,0 +1,112 @@
+body{
+    background-color: hsl(137, 6%, 56%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lien {
+    color: rgb(254, 238, 240);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 3.6rem;
+    color: beige;
+    text-shadow: -1px 0 rgb(20, 65, 65), 0 1px rgb(20, 65, 65), 0 -1px rgb(20, 65, 65);
+}
+h2{
+    font-size: 3.2rem;
+    color: azure;
+    text-shadow: -1px 0 rgb(92, 113, 185), 0 1px rgb(92, 113, 185), 0 -1px rgb(92, 113, 185);
+}
+h3{
+    font-size: 2.8rem;
+    color: rgb(92, 113, 185);
+    text-shadow: -1px 0 #fff, 0 1px #fff, 0 -1px #fff;
+}
+h4{
+    font-size: 2.4rem;
+    color: azure;
+    text-shadow: -1px 0 rgb(92, 113, 185), 0 1px rgb(92, 113, 185), 0 -1px rgb(92, 113, 185);
+}
+h5{
+    font-size: 2rem;
+    color: beige;
+    text-shadow: -1px 0 rgb(20, 65, 65), 0 1px rgb(20, 65, 65), 0 -1px rgb(20, 65, 65);
+}
+h6{
+    font-size: 1.8rem;
+    color: rgb(92, 113, 185);
+    text-shadow: -1px 0 #fff, 0 1px #fff, 0 -1px #fff;
+}
+
+a:active,
+a:focus,
+a:hover{
+    text-decoration: underline;
+    color: rgb(119, 95, 98);
+}
+
+blockquote {
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    line-height: .9;
+    letter-spacing: .1rem;
+    color:rgb(20, 65, 65);
+    background-color:rgb(254, 238, 240);
+}
+pre {
+    background-color: azure;
+    color: rgb(65, 5, 13);
+    padding: 1rem;
+    overflow-x: auto;
+}
+mark {
+    background-color:rgb(255, 225, 243);
+}  
+  th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 13px;
+  }
+  table {
+    border-collapse:separate;
+    text-align: center;
+    vertical-align: middle;
+  }
+  th {
+    background-color: rgb(119, 95, 98);
+    color: rgb(255, 255, 255);
+  }
+  input[type=text]:focus{
+    background-color: rgb(255, 225, 243);
+  }
+textarea {
+    border-color: rgb(255, 225, 243);
+    background-color:azure;
+  }
+  .custom-select {
+    min-width: 350px;
+  }
+  select {
+    appearance: none;
+    width: 15%;
+    font-size: 1rem;
+    padding: 0.675em 6em 0.675em 1em;
+    background-color: pink;
+    border: 1px solid  rgb(20, 65, 65);
+    border-radius: 0.25rem;
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+  }
+.button {
+    background-color: lightblue;
+    border-radius: 20%;
+  }
+  .button:hover {
+    background-color:lightblue;
+    color: white;
+  }
+  input[type=password]:focus{
+    background-color: rgb(255, 225, 243);
+}
