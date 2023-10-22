@@ -1,0 +1,31 @@
+body {
+  font-family:'Trebuchet MS', sans-serif;
+  margin: 20px;
+  text-align:justify;
+  background-color: rgb(253, 235, 238);
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h1, h2 {
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 1.2em;
+}
+ul {
+  margin: 0;
+  padding-left: 20px;
+}
+ul li {
+  margin-bottom: 5px;
+}
+img {
+  border-radius: 50%;
+  text-align:center;
+  margin:auto;
+  display:flex;
+} 
