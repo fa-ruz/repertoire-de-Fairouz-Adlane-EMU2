@@ -4,3 +4,6 @@ Il faut cacher les images sauf celle qui est .active.
 Même chose pour les <article>
 
 */
+
+.images img:not(.active),
+.text article:not(.active) {display: none;}
